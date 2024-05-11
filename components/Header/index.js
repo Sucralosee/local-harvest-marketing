@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 import React, { useRef } from "react";
+import Image from "next/image";
 
 const Header = ({ scrollToSection, scrollToTop }) => {
 
@@ -8,7 +9,11 @@ const Header = ({ scrollToSection, scrollToTop }) => {
   return (
     <header className={styles.headerContainer} ref={headerRef}>
         <div onClick={() => scrollToTop()} className={`${styles.wordmark} ${styles.linkClick}`}>
-          Wordmark
+          <Image
+            src="images/TempWordMark.svg"
+            width={300}
+            height={78}
+          />
         </div>
       <ul className={styles.listContainer}>
         <li onClick={() => scrollToSection("Video")} className={styles.linkClick}>

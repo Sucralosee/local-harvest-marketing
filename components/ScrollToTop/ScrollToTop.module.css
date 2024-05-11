@@ -10,9 +10,7 @@
     background-color: aqua;
 }
 
-.check{
-    background-color: blueviolet;
-    position: absolute;
-    z-index: 9999;
+.arrow{
+    width: 30px;
 }
 

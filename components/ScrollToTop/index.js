@@ -27,7 +27,6 @@ const ScrollToTop = () => {
             <div className={styles.scrollArea}>
                 <div onClick={scrollTop} className={`${styles.arrowUp}`}>
                     <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                    up
                 </div>
             </div>
         )}

@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
+import Landing from "@/components/Landing";
 
 export default function Home() {
   const Video = useRef(null);
@@ -77,9 +78,7 @@ export default function Home() {
       <main className={`${styles.main}`}>
         <Header scrollToSection={scrollToSection} scrollToTop={scrollToTop} />
         <ScrollToTop/>
-        <div className={styles.LandingArea}>
-
-        </div>
+        <Landing/>
         <div ref={Video} className={`${styles.area} ${styles.areaVideo}`}>
           <h3>Video</h3>
         </div>

@@ -1,0 +1,27 @@
+.landingContainer{
+    display: flex;
+}
+
+.landingInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingLink{
+    width: 12rem;
+    height: 3rem;
+
+    background-color: var(--sandy-brown);
+
+    border: none;
+    border-radius: 8px;
+}
+
+.link{
+    color: var(--cloud-white);
+    text-decoration: none;
+
+    font-size: var(--h2-mobile-font-size);
+}
