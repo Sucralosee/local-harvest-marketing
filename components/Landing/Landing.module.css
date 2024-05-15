@@ -1,22 +1,90 @@
 .landingContainer{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 65vh;
+    border-radius: 50px;
 }
+
+
+.landImage{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+/* .landingInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 50%;
+}
+
+.landingText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.landingh1{
+    text-align: center;
+
+    margin-bottom: 1rem;
+}
+
+.landingh4{
+    text-align: center;
+    font-weight: 100;
+    margin-top: 0;
+} */
 
 .landingInfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+
+    width: 50%;
+}
+
+.landingText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.landingh1{
+    /* text-align: center; */
+
+    margin-bottom: 1rem;
+}
+
+.landingh4{
+    /* text-align: center; */
+    font-weight: 100;
+    margin-top: 0;
 }
 
 .landingLink{
-    width: 12rem;
-    height: 3rem;
+    box-sizing: border-box;
+    width: 190px;
+    height: 60px;
 
     background-color: var(--sandy-brown);
-
+    border-radius: 15px;
     border: none;
-    border-radius: 8px;
+}
+
+.landingLink:hover{
+    background-color: var(--sandy-brown-50);
+    color: var(--semi-blacks);
 }
 
 .link{

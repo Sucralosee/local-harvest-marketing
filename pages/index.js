@@ -74,6 +74,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous"></link>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"></link>
       </Head>
       <main className={`${styles.main}`}>
         <Header scrollToSection={scrollToSection} scrollToTop={scrollToTop} />
@@ -88,9 +92,9 @@ export default function Home() {
         <div ref={Features} className={`${styles.area} ${styles.areaFeatures}`}>
           <h3>Features</h3>
         </div>
-        <div ref={PersuasiveFeatures} className={`${styles.area} ${styles.areaPersuasiveFeatures}`}>
+        {/* <div ref={PersuasiveFeatures} className={`${styles.area} ${styles.areaPersuasiveFeatures}`}>
           <h3>Persuasive Features</h3>
-        </div>
+        </div> */}
         <div ref={Description} className={`${styles.area} ${styles.areaDescription}`}>
           <h3>Description</h3>
         </div>

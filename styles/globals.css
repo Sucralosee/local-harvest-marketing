@@ -1,11 +1,11 @@
 :root {
-    --header-family: "Roobert TRIAL";
+    --header-family: "Ubuntu Sans","Roobert TRIAL", "Arimo", Helvetica;
     --body-family: "Arimo";
 
     --dark-grey: rgba(52, 52, 52, 1);
     --med-dark-grey: rgba(124, 124, 124, 1);
     --med-grey: rgba(181, 181, 181, 1);
-    --concrete-grey: rgba(217, 217, 217, 1);
+    --concrete-grey: rgba(230, 230, 230, 1);
     --semi-black: rgba(9, 9, 9, 1);
     --cloud-white: rgba(246, 246, 246, 1);
     --green: rgba(157, 215, 137, 1);
@@ -14,41 +14,43 @@
     --moss-green: rgba(141, 148, 116, 1);
     --asparagus: rgba(108, 174, 116, 1);
     --olivine: rgba(121, 201, 121, 1);
+    --olivine-light: rgba(227	249	227,1);
     --sage: rgba(194, 205, 153, 1);
     --sandy-brown: rgba(227, 107, 0, 1);
+    --sandy-brown-50: rgba(244, 164, 96, 0.6);
     --olivine-light: rgba(227, 249, 227, 1);
     --system-colourslabel-colourprimarylight: rgba(0, 0, 0, 1);
-    --h1-hifi-font-family: "Roobert TRIAL", Helvetica;
+    --h1-hifi-font-family: "Ubuntu Sans","Roobert TRIAL",  Helvetica;
     --h1-hifi-font-weight: 700;
     --h1-hifi-font-size: 47.7760009765625px;
     --h1-hifi-letter-spacing: 0px;
     --h1-hifi-line-height: normal;
     --h1-hifi-font-style: normal;
-    --h2-hifi-font-family: "Roobert TRIAL", Helvetica;
+    --h2-hifi-font-family: "Ubuntu Sans","Roobert TRIAL",  Helvetica;
     --h2-hifi-font-weight: 700;
     --h2-hifi-font-size: 39.80799865722656px;
     --h2-hifi-letter-spacing: 0px;
     --h2-hifi-line-height: normal;
     --h2-hifi-font-style: normal;
-    --h3-hifi-font-family: "Roobert TRIAL", Helvetica;
+    --h3-hifi-font-family: "Ubuntu Sans","Roobert TRIAL",  Helvetica;
     --h3-hifi-font-weight: 700;
     --h3-hifi-font-size: 33.183998107910156px;
     --h3-hifi-letter-spacing: 0px;
     --h3-hifi-line-height: normal;
     --h3-hifi-font-style: normal;
-    --h4-hifi-font-family: "Roobert TRIAL", Helvetica;
+    --h4-hifi-font-family: "Ubuntu Sans","Roobert TRIAL",  Helvetica;
     --h4-hifi-font-weight: 700;
     --h4-hifi-font-size: 27.648000717163086px;
     --h4-hifi-letter-spacing: 0px;
     --h4-hifi-line-height: normal;
     --h4-hifi-font-style: normal;
-    --h5-hifi-font-family: "Roobert TRIAL", Helvetica;
+    --h5-hifi-font-family:  "Ubuntu Sans","Roobert TRIAL", Helvetica;
     --h5-hifi-font-weight: 700;
     --h5-hifi-font-size: 23.040000915527344px;
     --h5-hifi-letter-spacing: 0px;
     --h5-hifi-line-height: normal;
     --h5-hifi-font-style: normal;
-    --h6-hifi-font-family: "Roobert TRIAL", Helvetica;
+    --h6-hifi-font-family: "Ubuntu Sans","Roobert TRIAL",  Helvetica;
     --h6-hifi-font-weight: 700;
     --h6-hifi-font-size: 19.200000762939453px;
     --h6-hifi-letter-spacing: 0px;
@@ -60,13 +62,13 @@
     --body-copy-16-hifi-letter-spacing: 0px;
     --body-copy-16-hifi-line-height: 25px;
     --body-copy-16-hifi-font-style: normal;
-    --h1-mobile-font-family: "Roobert TRIAL", Helvetica;
+    --h1-mobile-font-family: "Ubuntu Sans","Roobert TRIAL",  Helvetica;
     --h1-mobile-font-weight: 700;
     --h1-mobile-font-size: 25.799999237060547px;
     --h1-mobile-letter-spacing: 0px;
     --h1-mobile-line-height: normal;
     --h1-mobile-font-style: normal;
-    --h2-mobile-font-family: "Roobert TRIAL", Helvetica;
+    --h2-mobile-font-family: "Roobert TRIAL", "Ubuntu Sans", Helvetica;
     --h2-mobile-font-weight: 700;
     --h2-mobile-font-size: 20.799999237060547px;
     --h2-mobile-letter-spacing: 0px;
@@ -84,13 +86,13 @@
     --body-copy-mobile-letter-spacing: 0px;
     --body-copy-mobile-line-height: normal;
     --body-copy-mobile-font-style: normal;
-    --h3-mobile-font-family: "Roobert TRIAL", Helvetica;
+    --h3-mobile-font-family: "Roobert TRIAL", "Ubuntu Sans", Helvetica;
     --h3-mobile-font-weight: 600;
     --h3-mobile-font-size: 18px;
     --h3-mobile-letter-spacing: 0px;
     --h3-mobile-line-height: normal;
     --h3-mobile-font-style: normal;
-    --medium-header-mobile-font-family: "Roobert TRIAL", Helvetica;
+    --medium-header-mobile-font-family: "Roobert TRIAL", "Ubuntu Sans", Helvetica;
     --medium-header-mobile-font-weight: 500;
     --medium-header-mobile-font-size: 17px;
     --medium-header-mobile-letter-spacing: 0px;
@@ -157,4 +159,8 @@
   
   p {
     font-family: var(--body-family);
+  }
+
+  body{
+    background-color: var(--olivine-light);
   }

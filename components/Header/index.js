@@ -25,9 +25,9 @@ const Header = ({ scrollToSection, scrollToTop }) => {
         <li onClick={() => scrollToSection("Features")} className={styles.linkClick}>
           Features
         </li>
-        <li onClick={() => scrollToSection("PersuasiveFeatures")} className={styles.linkClick}>
+        {/* <li onClick={() => scrollToSection("PersuasiveFeatures")} className={styles.linkClick}>
           Persuasive Features
-        </li>
+        </li> */}
         <li onClick={() => scrollToSection("Description")} className={styles.linkClick}>
           Description
         </li>
