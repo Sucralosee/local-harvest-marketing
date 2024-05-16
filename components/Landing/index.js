@@ -37,7 +37,7 @@ export default function Landing() {
                         <h1 className={styles.landingh1}>Connecting Famers Markets <br /> With Consumers Digitally</h1>
                         <h4 className={styles.landingh4}>Secure your farm-fresh favorites with <br /> Local Harvest: Pre-order from local vendors <br /> for a guaranteed market haul!</h4>
                         <button className={styles.landingLink}>
-                            <Link href={"https://www.figma.com/proto/EueSKezqQqyA6V9YG3tpeN/Local-Harvest?page-id=3914%3A4148&node-id=3914-4791&viewport=44%2C301%2C0.13&t=5zffOEaoiVuzb5FT-1&scaling=scale-down&starting-point-node-id=3914%3A4791&show-proto-sidebar=1"} target="_blank" className={styles.link}>Prototype Tour</Link>
+                            <Link href={"https://www.figma.com/proto/EueSKezqQqyA6V9YG3tpeN/Local-Harvest?page-id=3914%3A4148&node-id=3914-4791&viewport=44%2C301%2C0.13&t=5zffOEaoiVuzb5FT-1&scaling=scale-down&starting-point-node-id=3914%3A4791&show-proto-sidebar=1"} target="_blank" className={styles.link}>View Prototype</Link>
                         </button>
                     </div>
                 </div>
