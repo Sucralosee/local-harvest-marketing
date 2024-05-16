@@ -23,7 +23,7 @@ export default function Description() {
 
                     <p>Whether you're a discerning shopper looking for the finest organic produce or a passionate vendor eager to connect with your community, Local Harvest provides a convenient platform for both.</p>
 
-                
+                    <div></div>
 
                 </h5>
 
