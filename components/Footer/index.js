@@ -34,24 +34,26 @@ export default function Footer() {
           <p>© 2024 LocalHarvest. All Rights Reserved.</p>
         </div>
         <div className={styles.footerLinks}>
-          <div className={styles.githubLink}>
-            <button onClick={handleGithubClick} className={styles.githubButton}>
-              <Image src={"/images/GitHubIconTransparent.png"} alt="GitHub Icon" width={40} height={40} />
-              Visit our GitHub
-            </button>
+          <div className={styles.footerLinksLeft}>
+            <div className={styles.githubLink}>
+              <button onClick={handleGithubClick} className={styles.githubButton}>
+                <Image src={"/images/GitHubIconTransparent.png"} alt="GitHub Icon" width={40} height={40} />
+                Visit our GitHub
+              </button>
+            </div>
+            <div className={styles.githubLink}>
+              <button onClick={handleFigma} className={styles.githubButton}>
+                <Image src={"/images/figma_logo.svg"} alt="GitHub Icon" width={40} height={40} />
+                Our Figma
+              </button>
+            </div>
           </div>
-          <div className={styles.githubLink}>
-            <button onClick={handleFigma} className={styles.githubButton}>
-              <Image src={"/images/figma_logo.svg"} alt="GitHub Icon" width={40} height={40} />
-              Our Prototype
-            </button>
+          <div className={styles.footerLinksRight}>
+            <h5 className={styles.h5Footer}>BCIT IDSP Project</h5>
+            <p>Spring Semester 2024</p>
+            <h5 className={styles.h5Footer}>Project 1 | MDIA 2003</h5>
           </div>
-          {/* <div className={styles.githubLink}>
-            <button onClick={handleFSWD} className={styles.githubButton}>
-              <Image src={"/images/Logo.svg"} alt="GitHub Icon" width={40} height={40} />
-              FSWD Version
-            </button>
-          </div> */}
+
         </div>
         
       </div>  
