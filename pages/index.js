@@ -113,14 +113,13 @@ export default function Home() {
         <div ref={Description} className={`${styles.area} ${styles.areaDescription}`}>
           <Descriptions/>
         </div>
-        <div ref={Links} className={`${styles.area} ${styles.areaLinks}`}>
+        {/* <div ref={Links} className={`${styles.area} ${styles.areaLinks}`}>
           <h3>Links</h3>
-        </div>
+        </div> */}
         <div ref={Contact} className={`${styles.area} ${styles.areaContact}`}>
-          <h3>Contact</h3>
+          <Footer/>
         </div>
       </main>
-      <Footer />
     </>
   );
 }
