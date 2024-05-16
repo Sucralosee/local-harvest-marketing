@@ -1,0 +1,47 @@
+.AboutContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutInner{
+    display: flex;
+    justify-content: center;
+    margin-left: -5rem;
+}
+
+.division{
+    width: 5rem;
+    text-align: end;
+}
+
+.member{
+    margin: 1rem;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: 225px;
+    height: 220px;
+
+    padding-bottom: 5px;
+    border-radius: 10px;
+    
+    background-color: var(--olivine);
+    
+}
+
+.name{
+    margin: 0.5rem 0.5rem 0 0.5rem;
+
+    display: flex;
+}
+
+.desc{
+    margin: 0.5rem;
+}

@@ -1,6 +1,6 @@
 :root {
     --header-family: "Ubuntu Sans","Roobert TRIAL", "Arimo", Helvetica;
-    --body-family: "Arimo";
+    --body-family: "Arimo", "arial";
 
     --dark-grey: rgba(52, 52, 52, 1);
     --med-dark-grey: rgba(124, 124, 124, 1);

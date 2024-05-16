@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import Landing from "@/components/Landing";
+import AboutTeam from "@/components/AboutTeam";
 import Image from "next/image";
 
 export default function Home() {
@@ -79,20 +80,26 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fredoka:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"></link>
       </Head>
       <main className={`${styles.main}`}>
         <Header scrollToSection={scrollToSection} scrollToTop={scrollToTop} />
         <ScrollToTop/>
         <Landing/>
         <div ref={Video} className={`${styles.area} ${styles.areaVideo}`}>
-          
-          <video autoPlay controls className="video" width="1180" height="620" preload="none">
+          <h3 className={styles.h3Vid}>
+            <div className={styles.line}></div>
+            Introduction Video
+          </h3>
+          <video controls className="video" width="1180" height="620" preload="yes">
             <source src="images/AnimationLH.mp4" />
                     Your browser does not support the video tag.
           </video>
         </div>
         <div ref={About} className={`${styles.area} ${styles.areaAbout}`}>
-          <h3>About</h3>
+          <AboutTeam/>
         </div>
         <div ref={Features} className={`${styles.area} ${styles.areaFeatures}`}>
           <h3> Main Features</h3>
