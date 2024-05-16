@@ -85,9 +85,9 @@ export default function Home() {
         <ScrollToTop/>
         <Landing/>
         <div ref={Video} className={`${styles.area} ${styles.areaVideo}`}>
-          {/* put video here */}
-          <video autoPlay muted loop className="video" width="1920" height="1080" preload="none">
-            <source src="" />
+          
+          <video autoPlay controls className="video" width="1180" height="620" preload="none">
+            <source src="images/AnimationLH.mp4" />
                     Your browser does not support the video tag.
           </video>
         </div>
@@ -95,7 +95,7 @@ export default function Home() {
           <h3>About</h3>
         </div>
         <div ref={Features} className={`${styles.area} ${styles.areaFeatures}`}>
-          <h3>Features</h3>
+          <h3> Main Features</h3>
         </div>
         {/* <div ref={PersuasiveFeatures} className={`${styles.area} ${styles.areaPersuasiveFeatures}`}>
           <h3>Persuasive Features</h3>

@@ -26,8 +26,8 @@ export default function Landing() {
                 <div className={styles.landImage}>
                     <Image
                         src="/images/Landing_Page_People.svg"
-                        width={700}
-                        height={700}
+                        width={600}
+                        height={600}
                         
                     />
                 </div>

@@ -26,9 +26,9 @@ const Header = ({ scrollToSection, scrollToTop }) => {
           />
         </div>
       <ul className={styles.listContainer}>
-        <li onClick={() => scrollToSection("Video")} className={styles.linkClick}>
+        {/* <li onClick={() => scrollToSection("Video")} className={styles.linkClick}>
           Video
-        </li>
+        </li> */}
         <li onClick={() => scrollToSection("About")} className={styles.linkClick}>
           About
         </li>
@@ -41,9 +41,9 @@ const Header = ({ scrollToSection, scrollToTop }) => {
         <li onClick={() => scrollToSection("Description")} className={styles.linkClick}>
           Description
         </li>
-        <li onClick={() => scrollToSection("Links")} className={styles.linkClick}>
+        {/* <li onClick={() => scrollToSection("Links")} className={styles.linkClick}>
           Links
-        </li>
+        </li> */}
         <li onClick={() => scrollToSection("Contact")} className={styles.linkClick}>
           Contact
         </li>
