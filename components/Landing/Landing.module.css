@@ -56,18 +56,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     flex-wrap: wrap;
 }
 
 .landingh1{
-    /* text-align: center; */
-
     margin-bottom: 1rem;
 }
 
 .landingh4{
-    /* text-align: center; */
     font-weight: 100;
     margin-top: 0;
 }
@@ -92,4 +88,51 @@
     text-decoration: none;
 
     font-size: var(--h2-mobile-font-size);
+}
+
+.trustContainer{
+    background-color: var(--asparagus);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.trustLand{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    width: 20rem;
+    border-top: 7px solid var(--sandy-brown);
+
+    color: var(--cloud-white);
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+
+    /* background-color: var(--tomato-red); */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 0.8rem;
+    padding: 1rem ;
+    height: 50px; 
+
+    background-color: var(--olivine-light);
+    color: var(--semi-black);
+    /* color: var(--cloud-white); */
+
+    border-radius: 19px;
+    text-align: center;
+    line-height: 50px;
+
+    font-family: var(--body-copy-16-hifi-font-family);
+    font-size: var(--h2-mobile-font-size);
+
 }

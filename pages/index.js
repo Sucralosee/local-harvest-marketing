@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import Landing from "@/components/Landing";
+import Image from "next/image";
 
 export default function Home() {
   const Video = useRef(null);
@@ -45,7 +46,7 @@ export default function Home() {
     if (elementRef && elementRef.current) {
       window.scrollTo({
         top: elementRef.current.offsetTop,
-        behavior: "instant",
+        behavior: "smooth",
       });
     }
   };
@@ -84,7 +85,11 @@ export default function Home() {
         <ScrollToTop/>
         <Landing/>
         <div ref={Video} className={`${styles.area} ${styles.areaVideo}`}>
-          <h3>Video</h3>
+          {/* put video here */}
+          <video autoPlay muted loop className="video" width="1920" height="1080" preload="none">
+            <source src="" />
+                    Your browser does not support the video tag.
+          </video>
         </div>
         <div ref={About} className={`${styles.area} ${styles.areaAbout}`}>
           <h3>About</h3>
