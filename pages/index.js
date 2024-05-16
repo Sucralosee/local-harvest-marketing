@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import Landing from "@/components/Landing";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const Video = useRef(null);
@@ -110,6 +111,7 @@ export default function Home() {
           <h3>Contact</h3>
         </div>
       </main>
+      <Footer />
     </>
   );
 }
