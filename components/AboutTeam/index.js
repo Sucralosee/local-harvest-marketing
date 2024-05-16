@@ -7,6 +7,7 @@ export default function AboutTeam () {
         <>
             <div className={styles.AboutContainer}>
                 <h3>About Our Team</h3>
+                <div></div>
 
                 <div className={styles.AboutInner}>
                     <h4 className={styles.division}>D3</h4>
