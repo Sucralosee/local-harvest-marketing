@@ -7,6 +7,8 @@ import Landing from "@/components/Landing";
 import AboutTeam from "@/components/AboutTeam";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import Feature from "@/components/Feature";
+import Descriptions from "@/components/Description";
 
 export default function Home() {
   const Video = useRef(null);
@@ -103,13 +105,13 @@ export default function Home() {
           <AboutTeam/>
         </div>
         <div ref={Features} className={`${styles.area} ${styles.areaFeatures}`}>
-          <h3> Main Features</h3>
+          <Feature/>
         </div>
         {/* <div ref={PersuasiveFeatures} className={`${styles.area} ${styles.areaPersuasiveFeatures}`}>
           <h3>Persuasive Features</h3>
         </div> */}
         <div ref={Description} className={`${styles.area} ${styles.areaDescription}`}>
-          <h3>Description</h3>
+          <Descriptions/>
         </div>
         <div ref={Links} className={`${styles.area} ${styles.areaLinks}`}>
           <h3>Links</h3>

@@ -1,0 +1,39 @@
+.h4{
+    width: 700px;
+    font-weight: 300;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100vw;
+    border-radius: 50px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    font-weight: 300;
+    /* text-align: center; */
+    /* background-color: var(--cloud-white); */
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    border-radius: 40px 40px 40px 40px;
+
+}
