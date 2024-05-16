@@ -9,10 +9,20 @@ const Header = ({ scrollToSection, scrollToTop }) => {
   return (
     <header className={styles.headerContainer} ref={headerRef}>
         <div onClick={() => scrollToTop()} className={`${styles.wordmark} ${styles.linkClick}`}>
+          {/* <Image
+            src="images/Logo.svg"
+            width={100}
+            height={100}
+          />
           <Image
-            src="images/TempWordMark.svg"
-            width={300}
-            height={78}
+            src="images/Wordmark.svg"
+            width={400}
+            height={178}
+          /> */}
+          <Image
+            src="images/LogoWithWordmark.svg"
+            width={500}
+            height={178}
           />
         </div>
       <ul className={styles.listContainer}>
