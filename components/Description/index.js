@@ -10,12 +10,12 @@ export default function Description() {
                 <div className={styles.cart}>
                         <Image
                             src="/images/LH-Mobile.svg"
-                            width={500}
-                            height={800}
+                            width={250}
+                            height={700}
                         />
                     </div>
 
-                <h4 className={styles.text}>
+                <h5 className={styles.text}>
                     <p>Local Harvest is your digital gateway to the freshest produce and goods from your neighborhood farmers' market.</p>
 
 
@@ -25,7 +25,7 @@ export default function Description() {
 
                     <p>Join us in celebrating the abundance of seasonal delights and supporting the vibrant tapestry of local producers with Local Harvest.</p>
 
-                </h4>
+                </h5>
 
             </div>
 

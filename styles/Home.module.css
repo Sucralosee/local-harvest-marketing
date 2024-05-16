@@ -34,7 +34,15 @@
 }
 
 .areaFeatures{
-  
+  height: 29gi0vh;
+  background-color: var(--asparagus);
+  border-radius: 40px 40px 40px 40px;
+
+}
+
+.areaDescription{
+
+  height: 110vh;
 }
 
 .line{

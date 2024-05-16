@@ -1,5 +1,5 @@
 .h4{
-    width: 700px;
+    width: 300px;
     font-weight: 300;
 
 }
@@ -20,12 +20,16 @@
     flex-direction: row;
 }
 
+.cart{
+    margin-right: 20px;
+}
+
 .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 800px;
+    width: 600px;
     font-weight: 300;
     /* text-align: center; */
     /* background-color: var(--cloud-white); */
