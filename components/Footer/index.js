@@ -18,18 +18,42 @@ export default function Footer() {
     window.open("https://github.com/Sucralosee/local-harvest-marketing", "_blank");
   };
 
+  const handleFigma = () => {
+    window.open("https://www.figma.com/proto/EueSKezqQqyA6V9YG3tpeN/Local-Harvest?page-id=3914%3A4148&node-id=3914-4791&viewport=44%2C301%2C0.13&t=5zffOEaoiVuzb5FT-1&scaling=scale-down&starting-point-node-id=3914%3A4791&show-proto-sidebar=1", "_blank");
+  };
+
+  const handleFSWD = () => {
+    window.open("https://local-harvest-app.onrender.com/", "_blank");
+  };
+
   return (
     <footer className={styles.footer}>
       <div className={styles.logoGithub}>
-        <div className={styles.logoContainer}>
-          <Image src={"/images/LogoWithWordmark.svg"} alt="Local Harvest Marketing Logo" width={400} height={400} />
+        <div className={styles.logoContainer} onClick={handleFSWD}>
+          <Image src={"/images/LogoWithWordmark.svg"} alt="Local Harvest Marketing Logo" width={400} height={100} />
+          <p>© 2024 LocalHarvest. All Rights Reserved.</p>
         </div>
-        <div className={styles.githubLink}>
-          <button onClick={handleGithubClick} className={styles.githubButton}>
-            <Image src={"/images/GitHubIconTransparent.png"} alt="GitHub Icon" width={40} height={40} />
-            Visit our GitHub
-          </button>
+        <div className={styles.footerLinks}>
+          <div className={styles.githubLink}>
+            <button onClick={handleGithubClick} className={styles.githubButton}>
+              <Image src={"/images/GitHubIconTransparent.png"} alt="GitHub Icon" width={40} height={40} />
+              Visit our GitHub
+            </button>
+          </div>
+          <div className={styles.githubLink}>
+            <button onClick={handleFigma} className={styles.githubButton}>
+              <Image src={"/images/figma_logo.svg"} alt="GitHub Icon" width={40} height={40} />
+              Our Prototype
+            </button>
+          </div>
+          {/* <div className={styles.githubLink}>
+            <button onClick={handleFSWD} className={styles.githubButton}>
+              <Image src={"/images/Logo.svg"} alt="GitHub Icon" width={40} height={40} />
+              FSWD Version
+            </button>
+          </div> */}
         </div>
+        
       </div>  
       <form className={styles.contactForm} onSubmit={handleSubmit}>
         <h3>Contact Us</h3>

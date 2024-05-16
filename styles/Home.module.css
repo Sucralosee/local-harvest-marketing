@@ -33,6 +33,10 @@
   height: 110vh;
 }
 
+.areaContact{
+  height: 50vh;
+}
+
 .line{
   display: flex;
   justify-content: center;
